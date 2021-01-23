@@ -1,4 +1,35 @@
-.App {
+
+.picContainer{
+  max-width: 100%;
+  height: 100vh;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+/* border-radius: 12px; */
+}
+.picture{
+  height: 50vh;
+  border:5px solid rgb(65, 64, 64);
+margin: 3px;
+padding: 13px;
+border-radius: 8%;
+}
+.button{display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +66,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
